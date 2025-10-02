@@ -35,9 +35,10 @@ pip install -r requirements.txt
 ```
 ---
 ## Set up environment variables:
+create .env file
 ```bash
-API_KEY=your_api_key_here
-OTHER_CONFIG=your_config
+SERPER_API_KEY=your_serper_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 ```
 ---
 ## Run the agent:
