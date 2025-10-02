@@ -37,8 +37,16 @@ pip install -r requirements.txt
 ## Set up environment variables:
 create .env file
 ```bash
-SERPER_API_KEY=your_serper_api_key_here
-GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY=your-groq-api-key-here
+SERPER_API_KEY=your-serper-api-key-here
+RESEARCH_AGENT_LLM=groq/llama-3.3-70b-versatile
+ANALYST_AGENT_LLM=groq/llama-3.3-70b-versatile
+WRITER_AGENT_LLM=groq/llama-3.3-70b-versatile
+QA_AGENT_LLM=groq/llama-3.3-70b-versatile
+RESEARCH_AGENT_TEMPERATURE=0.1
+ANALYST_AGENT_TEMPERATURE=0.2
+WRITER_AGENT_TEMPERATURE=0.3
+QA_AGENT_TEMPERATURE=0.4
 ```
 ---
 ## Run the agent:
